@@ -59,3 +59,5 @@
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
+
+server 'testror.fr', user: 'rails-deploy-one', roles: %w{app web db}, ssh_options: { forward_agent: true }
